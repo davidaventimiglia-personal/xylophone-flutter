@@ -13,7 +13,7 @@ class XylophoneApp extends StatelessWidget {
               child: TextButton(
                   onPressed: () {
                     final player = AudioPlayer();
-                    player.play(DeviceFileSource('assets/note1.wav'));
+                    player.play(AssetSource('note1.wav'));
                   },
                   child: Text('Click Me'))),
         ),
